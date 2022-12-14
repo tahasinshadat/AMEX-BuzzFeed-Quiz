@@ -10,16 +10,16 @@ If two users input the same answers, they should receive the same result.
 Make sure to check off your items as you complete them. [ ] → [x]
 
 ## Planning
-- [ ] Review your Starter Code and make sure you understand what code has already been written for you.
+- [x] Review your Starter Code and make sure you understand what code has already been written for you.
 
 ## Set-Up
-- [ ] Fork your own copy of the repl.
-- [ ] Double-check that you are signed in with your GitHub account.
+- [x] Fork your own copy of the repl.
+- [x] Double-check that you are signed in with your GitHub account.
 
 ## HTML
-1. [ ] Update the header for quiz with your planned idea 😊
-2. [ ] Update the cover photo with one that makes sense.
-3. [ ] Update the questions for your quiz. Be sure to have AT LEAST three to ask the user. Add more questions if you want!
+1. [x] Update the header for quiz with your planned idea 😊
+2. [x] Update the cover photo with one that makes sense.
+3. [x] Update the questions for your quiz. Be sure to have AT LEAST three to ask the user. Add more questions if you want!
 
 ## JS
 
@@ -34,15 +34,15 @@ Make sure to check off your items as you complete them. [ ] → [x]
 </br>
 
 5. Next, we need to declare variables for values we'll set later. You'll need one for:
-    - [ ] an image source
-    - [ ] a result
-    - [ ] a score for question 1
-    - [ ] a score for question 2
-    - [ ] a score for question 3
+    - [x] an image source
+    - [x] a result
+    - [x] a score for question 1
+    - [x] a score for question 2
+    - [x] a score for question 3
 
 ### Variables inside the .onlick event
 
-6. [ ] Declare user input variables for each of your questions. If you have three questions, you should have three variables. These variables should equal the value of the user input for each question.
+6. [x] Declare user input variables for each of your questions. If you have three questions, you should have three variables. These variables should equal the value of the user input for each question.
     - If you don't want to stress on whether or not the user's capitalization is exact, consider using the .toLowerCase() method.
 </br>
 </br>

@@ -1,19 +1,48 @@
+* {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
 html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Slabo 27px', serif;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #232323;
 }
 
 .header {
-  font-family: 'Slabo 27px', serif;
-  display: flex;
-  justify-content: space-around;
-  color: #0f65ef;
-  font-size:27px;
+    font-family: 'Slabo 27px', serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #0f65ef;
+    font-size:27px;
+    margin-top: -10px;
+    background: black;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.header a {
+    color: white;
+    opacity: 0.7;
+}
+
+.header a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
-  width: 100px;
+    width: 100px;
 }
 
 .cover{
@@ -26,24 +55,87 @@ a {
 }
 
 .coverPhoto {
-  width: 100%;
+  width: 90%;
 }
 
-.displayResult{
+#displayResult{
   text-align: center;
 }
 
-img{
-  width: 100%;
+.questions img, label {
+    width: 400px;
+    height: 250px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
 }
+
 
 button {
   margin-top: 10px;
   color: white;
-  background-color: #eb2642;
+  background-image: linear-gradient(red , yellow);
   font-size: 40px;
   border-radius: 25px;
   border:3px groove black;
-  font-family: monospace;
-  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  opacity: 0.75
+}
+
+button:hover {
+    opacity: 1;
+}
+
+h3 {
+    text-align: center;
+}
+
+.row {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 40%;
+    margin: 10px;
+}
+
+.choices {
+    background: lightgray;
+    width: 1000px;
+    height: 590px;
+    margin-left: 22%;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 4px solid red;
+}
+
+.questions {
+    width: 95%;
+}
+
+.questions h3 {
+    font-size: 4vh;
+    margin: 2vh;
+}
+
+#displayResult img {
+    width: 50vh;
 }
